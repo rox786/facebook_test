@@ -25,7 +25,7 @@ public class App
     	//setup chrome options parameters
     	ChromeOptions chromeOptions = new ChromeOptions();
     	//headless to execute chrome as backend
-    	//chromeOptions.addArguments("--headless");
+    	chromeOptions.addArguments("--headless");
 
     	//initialize web driver
     	WebDriver webDriver = new ChromeDriver(chromeOptions);
